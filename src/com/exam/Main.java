@@ -33,8 +33,6 @@ public class Main {
 				int orderhowmay = scanner.nextInt();
 				System.out.println("目前餐點:");
 				System.out.println(pr.get(Integer.parseInt(orderNo)) + " " + orderhowmay + "份");
-				System.out.println("請輸入餐點:");
-				orderNo = scanner.nextLine();
 
 			case "8":
 				System.out.println("q) 離開(結束程式)");
